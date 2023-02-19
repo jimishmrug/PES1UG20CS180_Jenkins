@@ -23,7 +23,7 @@ pipeline {
 	        stage('Deploy') {
 	            steps {
                   sh ' echo "Deployment stage"'
-                  //sh 'exit 1'
+                  sh 'exit 1'
 	                echo 'Deploy successfull'
 	            }
 	        }
